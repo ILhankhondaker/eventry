@@ -3,9 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
+    "dev": "node init && next dev",
+    "build": "node init && next build",
+    "start": "node init && next start",
     "lint": "next lint"
   },
   "dependencies": {
@@ -16,7 +16,7 @@
     "react": "^18",
     "react-dom": "^18",
     "resend": "^3.2.0",
-    "sharp": "^0.33.3"
+    "sharp": "^0.35.4"
   },
   "devDependencies": {
     "@tailwindcss/typography": "^0.5.12",
