@@ -27,7 +27,6 @@ yarn-error.log*
 
 # local env files
 .env*.local
-.env
 env 
 # vercel
 .vercel
@@ -37,7 +36,6 @@ env
 next-env.d.ts
 
 # Never commit real environment files
-.env
-.env.*
 !.env.example
 !.env.*.example
+config.bat
